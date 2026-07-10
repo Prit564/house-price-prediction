@@ -12,11 +12,14 @@ The goal of this project is to build an end-to-end data science pipeline that an
 4. Isolated column-wise statistical outliers and purged duplicate records.
 
 # Exploratory Data Analysis (EDA)
-### Univariate Analysis: This section analyzes individual variables, showing that apartments are the most common property type and that core pricing is heavily clustered between 550,000 and 650,000. It also identifies a distinct construction boom over the last decade alongside a dominant market share of semi-furnished homes.
+### Univariate Analysis: 
+This section analyzes individual variables, showing that apartments are the most common property type and that core pricing is heavily clustered between 550,000 and 650,000. It also identifies a distinct construction boom over the last decade alongside a dominant market share of semi-furnished homes.
 
-### Bivariate Analysis: This step explores direct correlations between independent features and property prices to isolate core standard behaviors. Key findings highlight diminishing returns for properties exceeding 4 rooms, prompting a data pre-processing cap at $1,000,000 to isolate regular consumers from luxury noise.
+### Bivariate Analysis: 
+This step explores direct correlations between independent features and property prices to isolate core standard behaviors. Key findings highlight diminishing returns for properties exceeding 4 rooms, prompting a data pre-processing cap at $1,000,000 to isolate regular consumers from luxury noise.
 
-### Multivariate Analysis: This section expands into multi-variable interactions alongside pricing to build a enhanced market evaluation. The results show a highly dense price band between 300,000 and 850,000, and reveal that a property’s age does not strongly dictate its final price.
+### Multivariate Analysis: 
+This section expands into multi-variable interactions alongside pricing to build a enhanced market evaluation. The results show a highly dense price band between 300,000 and 850,000, and reveal that a property’s age does not strongly dictate its final price.
 
 # Machine Learning
 ### Data Pre-processing & Feature Engineering
